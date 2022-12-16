@@ -6,6 +6,7 @@
 # https://stackoverflow.com/questions/18810483/what-is-the-zsh-equivalent-of-a-bash-script-getting-the-scripts-directory
 source ${0:h}/git-prompt.sh
 
+# https://github.com/ohmyzsh/ohmyzsh/blob/master/themes/fishy.zsh-theme
 _fishy_collapsed_wd() {
   local i pwd
   pwd=("${(s:/:)PWD/#$HOME/~}")
